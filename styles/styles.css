@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'SegoeWP-Semibold';
+  src: url('SegoeWP-Semibold.eot'); 
+  src: url('SegoeWP-Semibold.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP-Semibold.woff2') format('woff2'), 
+       url('SegoeWP-Semibold.woff') format('woff'), 
+       url('SegoeWP-Semibold.ttf')  format('truetype'), 
+       url('SegoeWP-Semibold.svg#SegoeWP-Semibold') format('svg'); 
+}
+@font-face {
+  font-family: 'SegoeWP-Semilight';
+  src: url('SegoeWP-Semilight.eot'); 
+  src: url('SegoeWP-Semilight.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP-Semilight.woff2') format('woff2'), 
+       url('SegoeWP-Semilight.woff') format('woff'), 
+       url('SegoeWP-Semilight.ttf')  format('truetype'), 
+       url('SegoeWP-Semilight.svg#SegoeWP-Semilight') format('svg'); 
+}
+@font-face {
+  font-family: 'SegoeWPN-Semilight';
+  src: url('SegoeWPN-Semilight.eot'); 
+  src: url('SegoeWPN-Semilight.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWPN-Semilight.woff2') format('woff2'), 
+       url('SegoeWPN-Semilight.woff') format('woff'), 
+       url('SegoeWPN-Semilight.ttf')  format('truetype'), 
+       url('SegoeWPN-Semilight.svg#SegoeWP-Semilight') format('svg'); 
+}
+@font-face {
+  font-family: 'SegoeWP-Light';
+  src: url('SegoeWP-Light.eot'); 
+  src: url('SegoeWP-Light.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP-Light.woff2') format('woff2'), 
+       url('SegoeWP-Light.woff') format('woff'), 
+       url('SegoeWP-Light.ttf')  format('truetype'), 
+       url('SegoeWP-Light.svg#SegoeWP-Light') format('svg'); 
+}
+@font-face {
+  font-family: 'SegoeWP-Bold';
+  src: url('SegoeWP-Bold.eot'); 
+  src: url('SegoeWP-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP-Bold.woff2') format('woff2'), 
+       url('SegoeWP-Bold.woff') format('woff'), 
+       url('SegoeWP-Bold.ttf')  format('truetype'), 
+       url('SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'); 
+}
+@font-face {
+  font-family: 'SegoeWP-Black';
+  src: url('SegoeWP-Black.eot'); 
+  src: url('SegoeWP-Black.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP-Black.woff2') format('woff2'), 
+       url('SegoeWP-Black.woff') format('woff'), 
+       url('SegoeWP-Black.ttf')  format('truetype'), 
+       url('SegoeWP-Black.svg#SegoeWP-Black') format('svg'); 
+}
+
+@font-face {
+  font-family: 'SegoeWP';
+  src: url('SegoeWP.eot'); 
+  src: url('SegoeWP.eot?#iefix') format('embedded-opentype'), 
+       url('SegoeWP.woff2') format('woff2'), 
+       url('SegoeWP.woff') format('woff'), 
+       url('SegoeWP.ttf')  format('truetype'), 
+       url('SegoeWP.svg#SegoeWP') format('svg'); 
+}
+
+.nav-pills a {
+	color: #7b7b7b;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.active a{
+	background-image: -webkit-linear-gradient(#35aff7, #238be9);
+	background-image: -o-linear-gradient(#35aff7, #238be9);
+	background-image: linear-gradient(#35aff7, #238be9);
+}
+body {
+  padding-top: 50px;
+}
+
+header {
+background-position: 50% 50%;
+background-color: rgba(0, 0, 0, 0);
+background-image: url("../images/bg.jpg");
+background-size: cover;
+background-position: center center;
+min-height: 600px;
+width: 100%;
+padding-top: 150px;
+}
+
+.col-12-md {
+	width: 100%;
+}
+
+.centered {
+	text-align: center;
+}
+
+header h1 {
+	 font-family: 'SegoeWP-Semibold';
+	 font-size: 50px;
+	 text-transform: uppercase;
+	 color: #fff;
+}
+
+header h2 {
+	font-family: 'SegoeWP-Semilight';
+	 font-size: 45px;
+	 text-transform: uppercase;
+	 color: #fff;
+	 letter-spacing: 2px;
+}
+.btn {
+	border-radius: 5px;
+	font-size: 28px;
+	font-family: 'SegoeWP-Semibold';
+	color: #fff;
+	padding: 8px 45px;
+	margin-top: 50px;
+	text-shadow: 1px 1px 2px #b3b5b2; 
+	border: 5px solid rgba(0, 0, 0, .2);
+}
+.btn-green {
+	background: #6DB81C;
+    background-image: -webkit-linear-gradient(#65cc4f, #39b126);
+    background-image: -o-linear-gradient(#65cc4f, #39b126);
+    background-image: linear-gradient(#65cc4f, #39b126);
+  	background-clip: padding-box;
+}
