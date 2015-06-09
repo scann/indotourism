@@ -1,66 +1,66 @@
 @font-face {
   font-family: 'SegoeWP-Semibold';
-  src: url('SegoeWP-Semibold.eot'); 
-  src: url('SegoeWP-Semibold.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP-Semibold.woff2') format('woff2'), 
-       url('SegoeWP-Semibold.woff') format('woff'), 
-       url('SegoeWP-Semibold.ttf')  format('truetype'), 
-       url('SegoeWP-Semibold.svg#SegoeWP-Semibold') format('svg'); 
+  src: url('../fonts/SegoeWP-Semibold.eot'); 
+  src: url('../fonts/SegoeWP-Semibold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP-Semibold.woff2') format('woff2'), 
+       url('../fonts/SegoeWP-Semibold.woff') format('woff'), 
+       url('../fonts/SegoeWP-Semibold.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP-Semibold.svg#SegoeWP-Semibold') format('svg'); 
 }
 @font-face {
   font-family: 'SegoeWP-Semilight';
-  src: url('SegoeWP-Semilight.eot'); 
-  src: url('SegoeWP-Semilight.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP-Semilight.woff2') format('woff2'), 
-       url('SegoeWP-Semilight.woff') format('woff'), 
-       url('SegoeWP-Semilight.ttf')  format('truetype'), 
-       url('SegoeWP-Semilight.svg#SegoeWP-Semilight') format('svg'); 
+  src: url('../fonts/SegoeWP-Semilight.eot'); 
+  src: url('../fonts/SegoeWP-Semilight.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP-Semilight.woff2') format('woff2'), 
+       url('../fonts/SegoeWP-Semilight.woff') format('woff'), 
+       url('../fonts/SegoeWP-Semilight.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP-Semilight.svg#SegoeWP-Semilight') format('svg'); 
 }
 @font-face {
   font-family: 'SegoeWPN-Semilight';
-  src: url('SegoeWPN-Semilight.eot'); 
-  src: url('SegoeWPN-Semilight.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWPN-Semilight.woff2') format('woff2'), 
-       url('SegoeWPN-Semilight.woff') format('woff'), 
-       url('SegoeWPN-Semilight.ttf')  format('truetype'), 
-       url('SegoeWPN-Semilight.svg#SegoeWP-Semilight') format('svg'); 
+  src: url('../fonts/SegoeWPN-Semilight.eot'); 
+  src: url('../fonts/SegoeWPN-Semilight.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWPN-Semilight.woff2') format('woff2'), 
+       url('../fonts/SegoeWPN-Semilight.woff') format('woff'), 
+       url('../fonts/SegoeWPN-Semilight.ttf')  format('truetype'), 
+       url('../fonts/SegoeWPN-Semilight.svg#SegoeWP-Semilight') format('svg'); 
 }
 @font-face {
   font-family: 'SegoeWP-Light';
-  src: url('SegoeWP-Light.eot'); 
-  src: url('SegoeWP-Light.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP-Light.woff2') format('woff2'), 
-       url('SegoeWP-Light.woff') format('woff'), 
-       url('SegoeWP-Light.ttf')  format('truetype'), 
-       url('SegoeWP-Light.svg#SegoeWP-Light') format('svg'); 
+  src: url('../fonts/SegoeWP-Light.eot'); 
+  src: url('../fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP-Light.woff2') format('woff2'), 
+       url('../fonts/SegoeWP-Light.woff') format('woff'), 
+       url('../fonts/SegoeWP-Light.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP-Light.svg#SegoeWP-Light') format('svg'); 
 }
 @font-face {
   font-family: 'SegoeWP-Bold';
-  src: url('SegoeWP-Bold.eot'); 
-  src: url('SegoeWP-Bold.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP-Bold.woff2') format('woff2'), 
-       url('SegoeWP-Bold.woff') format('woff'), 
-       url('SegoeWP-Bold.ttf')  format('truetype'), 
-       url('SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'); 
+  src: url('../fonts/SegoeWP-Bold.eot'); 
+  src: url('../fonts/SegoeWP-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP-Bold.woff2') format('woff2'), 
+       url('../fonts/SegoeWP-Bold.woff') format('woff'), 
+       url('../fonts/SegoeWP-Bold.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'); 
 }
 @font-face {
   font-family: 'SegoeWP-Black';
-  src: url('SegoeWP-Black.eot'); 
-  src: url('SegoeWP-Black.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP-Black.woff2') format('woff2'), 
-       url('SegoeWP-Black.woff') format('woff'), 
-       url('SegoeWP-Black.ttf')  format('truetype'), 
-       url('SegoeWP-Black.svg#SegoeWP-Black') format('svg'); 
+  src: url('../fonts/SegoeWP-Black.eot'); 
+  src: url('../fonts/SegoeWP-Black.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP-Black.woff2') format('woff2'), 
+       url('../fonts/SegoeWP-Black.woff') format('woff'), 
+       url('../fonts/SegoeWP-Black.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP-Black.svg#SegoeWP-Black') format('svg'); 
 }
 
 @font-face {
   font-family: 'SegoeWP';
-  src: url('SegoeWP.eot'); 
-  src: url('SegoeWP.eot?#iefix') format('embedded-opentype'), 
-       url('SegoeWP.woff2') format('woff2'), 
-       url('SegoeWP.woff') format('woff'), 
-       url('SegoeWP.ttf')  format('truetype'), 
-       url('SegoeWP.svg#SegoeWP') format('svg'); 
+  src: url('../fonts/SegoeWP.eot'); 
+  src: url('../fonts/SegoeWP.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/SegoeWP.woff2') format('woff2'), 
+       url('../fonts/SegoeWP.woff') format('woff'), 
+       url('../fonts/SegoeWP.ttf')  format('truetype'), 
+       url('../fonts/SegoeWP.svg#SegoeWP') format('svg'); 
 }
 
 .nav-pills a {
