@@ -128,3 +128,22 @@ header h2 {
     background-image: linear-gradient(#65cc4f, #39b126);
   	background-clip: padding-box;
 }
+section {
+  min-height: 600px;
+  padding-top: 400px;
+  padding-bottom: 70px;
+  
+}
+section.grey {
+  background: #ececec repeat scroll 0 0;
+}
+
+figure {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+figcaption {
+  font-family: 'SegoeWP-Light';
+  font-size: 22px;
+  color: #8d8b8b;
+}
