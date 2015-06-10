@@ -131,7 +131,7 @@ header h2 {
 section {
   min-height: 600px;
   padding-top: 400px;
-  padding-bottom: 70px;
+  padding-bottom: 120px;
   
 }
 section.grey {
@@ -147,3 +147,13 @@ figcaption {
   font-size: 22px;
   color: #8d8b8b;
 }
+
+footer {
+  background: #414141 repeat scroll 0 0;
+}
+footer p {
+  font-family: 'SegoeWP-Light';
+  font-size: 16px;
+  margin-top: 8px;
+  color: #b1b1b1;
+ }
