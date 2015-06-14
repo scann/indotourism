@@ -165,11 +165,14 @@ figcaption {
   font-size: 22px;
   
 }
-
-section.cities {
+.wrapper {
   position: absolute;
-  top: 520px;
-  left: 31%;
+  left: 50%;
+}
+section.cities {
+  position: relative;
+  top: -80px;
+  left: -50%;
   width: 530px;
   min-height: 280px;
   background: #fff;
