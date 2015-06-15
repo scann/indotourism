@@ -17,15 +17,6 @@
        url('../fonts/SegoeWP-Semilight.svg#SegoeWP-Semilight') format('svg'); 
 }
 @font-face {
-  font-family: 'SegoeWPN-Semilight';
-  src: url('../fonts/SegoeWPN-Semilight.eot'); 
-  src: url('../fonts/SegoeWPN-Semilight.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/SegoeWPN-Semilight.woff2') format('woff2'), 
-       url('../fonts/SegoeWPN-Semilight.woff') format('woff'), 
-       url('../fonts/SegoeWPN-Semilight.ttf')  format('truetype'), 
-       url('../fonts/SegoeWPN-Semilight.svg#SegoeWP-Semilight') format('svg'); 
-}
-@font-face {
   font-family: 'SegoeWP-Light';
   src: url('../fonts/SegoeWP-Light.eot'); 
   src: url('../fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'), 
@@ -34,35 +25,18 @@
        url('../fonts/SegoeWP-Light.ttf')  format('truetype'), 
        url('../fonts/SegoeWP-Light.svg#SegoeWP-Light') format('svg'); 
 }
-@font-face {
-  font-family: 'SegoeWP-Bold';
-  src: url('../fonts/SegoeWP-Bold.eot'); 
-  src: url('../fonts/SegoeWP-Bold.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/SegoeWP-Bold.woff2') format('woff2'), 
-       url('../fonts/SegoeWP-Bold.woff') format('woff'), 
-       url('../fonts/SegoeWP-Bold.ttf')  format('truetype'), 
-       url('../fonts/SegoeWP-Bold.svg#SegoeWP-Bold') format('svg'); 
+/*General styles*/
+body {
+  padding-top: 50px;
 }
-@font-face {
-  font-family: 'SegoeWP-Black';
-  src: url('../fonts/SegoeWP-Black.eot'); 
-  src: url('../fonts/SegoeWP-Black.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/SegoeWP-Black.woff2') format('woff2'), 
-       url('../fonts/SegoeWP-Black.woff') format('woff'), 
-       url('../fonts/SegoeWP-Black.ttf')  format('truetype'), 
-       url('../fonts/SegoeWP-Black.svg#SegoeWP-Black') format('svg'); 
+section {
+  min-height: 600px;
+  padding-top: 400px;
+  padding-bottom: 120px;
+  
 }
 
-@font-face {
-  font-family: 'SegoeWP';
-  src: url('../fonts/SegoeWP.eot'); 
-  src: url('../fonts/SegoeWP.eot?#iefix') format('embedded-opentype'), 
-       url('../fonts/SegoeWP.woff2') format('woff2'), 
-       url('../fonts/SegoeWP.woff') format('woff'), 
-       url('../fonts/SegoeWP.ttf')  format('truetype'), 
-       url('../fonts/SegoeWP.svg#SegoeWP') format('svg'); 
-}
-
+/*Navigation menu*/
 .nav-pills a {
 	color: #7b7b7b;
 	margin-top: 4px;
@@ -74,10 +48,8 @@
 	background-image: -o-linear-gradient(#35aff7, #238be9);
 	background-image: linear-gradient(#35aff7, #238be9);
 }
-body {
-  padding-top: 50px;
-}
 
+/*Header section*/
 header {
 background-position: 50% 50%;
 background-color: rgba(0, 0, 0, 0);
@@ -97,23 +69,23 @@ padding-top: 150px;
 	text-align: center;
 }
 
-header h1 {
+header .title {
 	 font-family: 'SegoeWP-Semibold';
-	 font-size: 50px;
+	 font-size: 3.5em; /*50px / 14px */
 	 text-transform: uppercase;
 	 color: #fff;
 }
 
 header h2 {
 	font-family: 'SegoeWP-Semilight';
-	 font-size: 45px;
+	 font-size: 3.2em; /*45px / 14px */
 	 text-transform: uppercase;
 	 color: #fff;
 	 letter-spacing: 2px;
 }
 .btn {
 	border-radius: 5px;
-	font-size: 28px;
+	font-size: 2em; /*28px / 14px */
 	font-family: 'SegoeWP-Semibold';
 	color: #fff;
 	padding: 8px 45px;
@@ -132,40 +104,9 @@ header h2 {
 .btn:hover {
   color: #fff;
 }
-section {
-  min-height: 600px;
-  padding-top: 400px;
-  padding-bottom: 120px;
-  
-}
-section.grey {
-  background: #ececec repeat scroll 0 0;
-  font-family: 'SegoeWP-Light';
-  text-align: center;
-  color: #8d8b8b;
-}
 
-section.grey .container {
-  margin-top: -120px;
-}
-
-section.grey h3 {
-  font-size: 25px;
-}
-section.grey h4 {
-  font-size: 20px;
-  margin-bottom: 55px;
-}
-figure {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-figcaption {
-  font-family: 'SegoeWP-Light';
-  font-size: 22px;
-  
-}
-.wrapper {
+/*Central absolute-positioned section*/
+.wrapper-absolute-block {
   position: absolute;
   left: 50%;
 }
@@ -188,7 +129,7 @@ section.cities {
   text-align: center;
   
   font-family: 'SegoeWP-Light';
-  font-size: 22px;
+  font-size: 1.57em; /*22px / 14px */
   padding-bottom: 17px;
   margin-top: 5px; 
 }
@@ -202,15 +143,47 @@ section.cities {
   margin-right: 10px;
 }
 .cities-list figure figcaption {
-font-size: 18px;
+  font-size: 1.29em; /*18px / 14px*/
 }
 
+
+/*Bottom grey section*/
+section.grey {
+  background: #ececec repeat scroll 0 0;
+  font-family: 'SegoeWP-Light';
+  text-align: center;
+  color: #8d8b8b;
+}
+
+section.grey .container {
+  margin-top: -120px;
+}
+
+section.grey h3 {
+  font-size: 1.79em; /*25px /14px */
+}
+section.grey h4 {
+  font-size: 1.43em; /*20px / 14px */
+  margin-bottom: 55px;
+}
+figure {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+figcaption {
+  font-family: 'SegoeWP-Light';
+  font-size: 1.57em; /*22px / 14px */
+  
+}
+
+
+/*Footer*/
 footer {
   background: #414141 repeat scroll 0 0;
 }
 footer p {
   font-family: 'SegoeWP-Light';
-  font-size: 16px;
+  font-size: 1.14em; /*16px / 14px */
   margin-top: 8px;
   color: #b1b1b1;
  }
