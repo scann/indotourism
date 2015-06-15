@@ -69,30 +69,31 @@ padding-top: 150px;
 	text-align: center;
 }
 
+
 header .title {
 	 font-family: 'SegoeWP-Semibold';
 	 font-size: 3.5em; /*50px / 14px */
 	 text-transform: uppercase;
 	 color: #fff;
 }
-
 header h2 {
-	font-family: 'SegoeWP-Semilight';
-	 font-size: 3.2em; /*45px / 14px */
-	 text-transform: uppercase;
-	 color: #fff;
-	 letter-spacing: 2px;
+   font-family: 'SegoeWP-Semilight';
+   font-size: 3.2em; /*45px / 14px */
+   text-transform: uppercase;
+   color: #fff;
+   letter-spacing: 2px;
 }
 .btn {
-	border-radius: 5px;
-	font-size: 2em; /*28px / 14px */
-	font-family: 'SegoeWP-Semibold';
-	color: #fff;
-	padding: 8px 45px;
-	margin-top: 50px;
-	text-shadow: 1px 1px 2px #b3b5b2; 
-	border: 5px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  font-size: 2em; /*28px / 14px */
+  font-family: 'SegoeWP-Semibold';
+  color: #fff;
+  padding: 8px 45px;
+  margin-top: 50px;
+  text-shadow: 1px 1px 2px #b3b5b2; 
+  border: 5px solid rgba(0, 0, 0, .2);
 }
+
 .btn-green {
 	background: #6DB81C;
   background-image: -webkit-linear-gradient(#65cc4f, #39b126);
@@ -110,6 +111,7 @@ header h2 {
   position: absolute;
   left: 50%;
 }
+
 section.cities {
   position: relative;
   top: -80px;
@@ -127,7 +129,6 @@ section.cities {
 
 .cities-list h3 {
   text-align: center;
-  
   font-family: 'SegoeWP-Light';
   font-size: 1.57em; /*22px / 14px */
   padding-bottom: 17px;
@@ -169,6 +170,7 @@ section.grey h4 {
 figure {
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 25px;
 }
 figcaption {
   font-family: 'SegoeWP-Light';
@@ -187,3 +189,44 @@ footer p {
   margin-top: 8px;
   color: #b1b1b1;
  }
+
+ /*Media queries*/
+
+
+ @media screen and (max-width: 768px) {
+    section {
+      padding-top: 300px;
+    }
+  header .title {
+    font: normal 2.5em Calibri, Candara, Arial, Helvetica, sans-serif; 
+  }
+  header h2 {
+    font: normal 2.2em Calibri, Candara, Arial, Helvetica, sans-serif; 
+    font-weight: lighter;
+  }
+  .btn{
+    font: normal 1.7em Calibri, Candara, Arial, Helvetica, sans-serif; 
+    padding: 8px 30px;
+    margin-top: 30px;
+  }
+  section.cities {
+    top: -120px;
+  }
+  .cities-list h3 {
+    font: normal 1.5em Calibri, Candara, Arial, Helvetica, sans-serif;
+  }
+  .cities-list figure figcaption {
+  font: normal 1.2em Calibri, Candara, Arial, Helvetica, sans-serif;
+  }
+  section.grey h3 {
+  font: normal 1.5em Calibri, Candara, Arial, Helvetica, sans-serif;
+}
+  section.grey h4 {
+    font: normal 1.2em Calibri, Candara, Arial, Helvetica, sans-serif;
+    
+  }
+  figcaption {
+    font: normal 1.3em Calibri, Candara, Arial, Helvetica, sans-serif;
+    
+  }
+}
