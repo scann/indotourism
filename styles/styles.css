@@ -30,6 +30,7 @@
 body {
   overflow-x: hidden; 
   padding-top: 50px;
+
 }
 section {
   min-height: 600px;
@@ -39,6 +40,7 @@ section {
 }
 
 /*Navigation menu*/
+
 .nav-pills a {
 	color: #7b7b7b;
 	margin-top: 4px;
@@ -181,7 +183,8 @@ figcaption {
 }
 
 
-/*Footer*/
+/*Page footer*/
+
 footer {
   background: #414141 repeat scroll 0 0;
 }
