@@ -26,14 +26,16 @@
        url('../fonts/SegoeWP-Light.svg#SegoeWP-Light') format('svg'); 
 }
 /*General styles*/
+
 body {
+  overflow-x: hidden;
   padding-top: 50px;
 }
 section {
   min-height: 600px;
   padding-top: 400px;
   padding-bottom: 120px;
-  
+ 
 }
 
 /*Navigation menu*/
