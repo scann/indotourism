@@ -87,7 +87,8 @@ header h2 {
    color: #fff;
    letter-spacing: 2px;
 }
-.btn {
+
+.btn-green {
   border-radius: 5px;
   font-size: 2em; /*28px / 14px */
   font-family: 'SegoeWP-Semibold';
@@ -96,9 +97,6 @@ header h2 {
   margin-top: 50px;
   text-shadow: 1px 1px 2px #b3b5b2; 
   border: 5px solid rgba(0, 0, 0, .2);
-}
-
-.btn-green {
 	background: #6DB81C;
   background-image: -webkit-linear-gradient(#65cc4f, #39b126);
   background-image: -o-linear-gradient(#65cc4f, #39b126);
