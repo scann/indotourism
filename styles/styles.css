@@ -273,4 +273,5 @@ select {
   resize: none;
   margin-top: 20px;
   height: 150px;
+  padding-left: 3px;
 }
