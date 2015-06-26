@@ -85,22 +85,22 @@
                         <h4 class="modal-title centered">What city do you want to ask about?</h4>
                       </div>
                     <div class="modal-body">
-                      First name:<br>
-                      <input type="text" name="firstname">
+                      <select size="1" name="cities">
+                        <option value="azhekaal">Azhekaal</option>
+                        <option value="ooty">Ooty</option>
+                        <option value="munnar">Munnar</option>
+                        <option value="humpi">Humpi</option>
+                        <option value="kovalam">Kovalam</option>
+                        <option value="kuttanad">Kuttanad</option>
+                        <option value="thenmala">Thenmala</option>
+                        <option value="beach">Beach</option>
+                        <option value="punaloor">Punaloor</option>
+                      </select>
                       <br>
-                      Last name:<br>
-                      <input type="text" name="lastname">
-                      <br>
-                      E-mail:<br>
-                      <input type="email" name="email">
-                      <br>
-                      Message (optional) 
-                      <p>
-                        <textarea name="text"></textarea>
-                      </p>
+                      <textarea name="question" placeholder="Your message (optional)" class="ask"></textarea>
                     </div>
                     <div class="modal-footer">
-                      <a class="btn btn-primary">Submit</a>
+                      <a class="btn btn-primary">Ask</a>
                       <a class="btn btn-default" data-dismiss="modal">Close</a>
                     </div>
                     </div><!-- /.modal-content -->

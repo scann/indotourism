@@ -233,6 +233,10 @@ footer p {
     
   }
 }
+/*Contact Us modal window*/
+.modal-body {
+  text-align: left;
+}
 .modal-title {
   font-family: 'SegoeWP-Semibold';
   font-color: #8d8b8b;
@@ -252,4 +256,21 @@ input[type="text"], input[type='email'], .message{
 input[type="text"], input[type='email'] {
   width: 65%;
   height: 40px;
+}
+
+/*Ask me modal window*/
+
+select, .ask {
+  font-family: Calibri, Candara, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+select {
+  width: 50%;
+}
+.ask {
+  width: 65%;
+  resize: none;
+  margin-top: 20px;
+  height: 150px;
 }
