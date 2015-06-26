@@ -233,3 +233,24 @@ footer p {
     
   }
 }
+.modal-title {
+  font-family: 'SegoeWP-Semibold';
+  font-color: #8d8b8b;
+}
+input[type="text"], input[type='email']{
+  width: 300px;
+  height: 40px;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: Calibri, Candara, Arial, Helvetica, sans-serif;
+}
+.message {
+  width: 80%;
+  height: 200px;
+  resize: none;
+  font-family: Calibri, Candara, Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
